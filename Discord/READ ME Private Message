@@ -1,0 +1,17 @@
+# Private Message Sender Script
+
+## Description
+This Python script allows you to send a direct message (DM) to a Discord user using their User ID. It's useful for sending personalized messages or alerts to users privately.
+
+## How to Use
+1. **Set up the bot**  
+   Replace `YOUR_BOT_TOKEN` with your bot's token.  
+   - Get the token from the [Discord Developer Portal](https://discord.com/developers/applications).
+   
+2. **Edit the User ID**  
+   Replace `123456789012345678` with the ID of the user you want to message.
+
+3. **Install `discord.py`**  
+   Open a terminal and install the library with:
+   ```bash
+   pip install discord.py
