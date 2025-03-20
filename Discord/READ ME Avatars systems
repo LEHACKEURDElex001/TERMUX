@@ -1,0 +1,14 @@
+# Avatar Command Script
+
+## Description
+This Python script allows users to fetch the avatar of any member on the server by using their username or mention.
+
+## How to Use
+1. **Set up the bot**  
+   Replace `YOUR_BOT_TOKEN` with your bot's token.  
+   - Get the token from the [Discord Developer Portal](https://discord.com/developers/applications).
+
+2. **Install `discord.py`**  
+   Open a terminal and install the library with:
+   ```bash
+   pip install discord.py
