@@ -1,0 +1,35 @@
+# Tic Tac Toe with AI
+
+This is a simple Tic Tac Toe game with an AI opponent. The game allows a human player to play against a computer that uses basic AI logic to determine its moves. The game features animations like falling stars, shooting stars, and a glowing footer effect. 
+
+## Features:
+- Human vs AI gameplay
+- Basic AI that tries to win or block the player
+- Replay button to restart the game
+- Animated background with stars and shooting stars
+- Sound effects for victory and defeat
+
+## Installation:
+1. Download the HTML, CSS, and JS code files.
+2. Open the `index.html` file in a web browser to start playing the game.
+
+## How to Play:
+- Click on any empty cell to place your mark ("X").
+- The AI will automatically make its move after your turn.
+- The game will display a message when someone wins or if there's a draw.
+- You can click the "Replay" button to restart the game.
+
+## AI Logic:
+The AI uses a simple strategy:
+- First, it checks if it can win.
+- Then, it checks if the player can win and blocks that move.
+- If neither is possible, it randomly chooses a cell.
+
+## Customization:
+You can customize the background stars and the footer text by modifying the corresponding CSS and HTML elements. 
+
+## Credits:
+- Sounds: [Soundjay.com](https://www.soundjay.com)
+- Author: [Your Name]
+
+Enjoy the game and have fun playing against the AI!
