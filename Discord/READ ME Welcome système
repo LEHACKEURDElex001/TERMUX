@@ -1,0 +1,14 @@
+# Welcome Command Script
+
+## Description
+This Python script allows you to send a custom welcome message when a new user joins your server. You can customize the message and include the user's name.
+
+## How to Use
+1. **Set up the bot**  
+   Replace `YOUR_BOT_TOKEN` with your bot's token.  
+   - Get the token from the [Discord Developer Portal](https://discord.com/developers/applications).
+
+2. **Install `discord.py`**  
+   Open a terminal and install the library with:
+   ```bash
+   pip install discord.py
