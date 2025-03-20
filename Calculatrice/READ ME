@@ -1,1 +1,28 @@
+🖩 PYTHON CALCULATOR FOR TERMUX  
 
+This project is a simple Python calculator designed to run on Termux.  
+
+🚀 INSTALLATION & USAGE  
+
+1. Open Termux  
+2. Install Python:  
+   pkg install python  
+3. Create a folder for the project:  
+   mkdir Calculator && cd Calculator  
+4. Add a main file named "Main.py"  
+5. Write the calculator code inside "Main.py"  
+6. Save and exit  
+7. Run the program with:  
+   python Main.py  
+
+✨ FEATURES  
+✔️ Supports basic calculations (+, -, *, /)  
+✔️ Handles advanced mathematical expressions  
+✔️ Type 'exit' to quit  
+
+🛠 EXAMPLE USAGE  
+Enter your calculation (or 'exit' to quit): 10 / 2  
+Result: 5.0  
+
+📜 LICENSE  
+This project is open-source under the MIT license.
