@@ -1,0 +1,123 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  background-color: black;
+}
+
+/* Heading styling */
+h1 {
+  color: #4CAF50;
+}
+
+/* Game container */
+#game {
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Row styling */
+.row {
+  display: flex;
+}
+
+/* Cell styling */
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* Status text styling */
+#status {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Replay button styling */
+#replay-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#replay-btn:hover {
+  background-color: #45a049;
+}
+
+/* Star animation */
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0;
+  animation: starAnimation 1.5s infinite ease-in-out;
+}
+
+@keyframes starAnimation {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+/* Shooting star animation */
+.shooting-star {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  animation: shootingStarAnimation 1.5s forwards;
+  z-index: 1;
+}
+
+@keyframes shootingStarAnimation {
+  0% {
+    left: -10%;
+    top: 50%;
+    transform: scale(1);
+  }
+  100% {
+    left: 110%;
+    top: 50%;
+    transform: scale(0);
+  }
+}
+
+/* Footer text */
+#footer {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 40px #00FF00;
+}
