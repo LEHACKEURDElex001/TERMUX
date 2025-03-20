@@ -1,0 +1,7 @@
+from gtts import gTTS
+
+text = input("📝 Entrez le texte à convertir en audio : ")
+tts = gTTS(text, lang="en")
+tts.save("audio.mp3")
+
+print("🎶 Audio généré : audio.mp3")
