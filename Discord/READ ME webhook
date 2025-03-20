@@ -1,0 +1,53 @@
+📢 Discord Webhook Message Sender
+
+📜 Description
+
+This Python script allows you to send an automatic message to a Discord channel via a Webhook. You can use this script to send notifications, announcements, or any type of automated messages to your server.
+
+🚀 How to Use
+
+1. Create a Discord Webhook
+
+Go to your Discord server settings.
+
+Select a channel (or create a new one) where you want the message to be sent.
+
+In the channel settings, click on "Integrations" and then "Webhooks".
+
+Create a new webhook and copy the URL.
+
+
+
+2. Install Python and Requests
+
+Ensure you have Python installed on your system. You can download Python here.
+
+Install the requests library by running the following command:
+
+pip install requests
+
+
+
+3. Set up the Script
+
+Download or copy the discord_webhook.py script into a folder.
+
+Open the script in a text editor and replace the webhook_url with the webhook URL you copied from Discord.
+
+Modify the message in the script to customize what will be sent.
+
+
+
+4. Run the Script
+
+Open a terminal and navigate to the folder where the script is located.
+
+Run the script by executing the following command:
+
+python discord_webhook.py
+
+
+
+5. Message Sent
+
+After running the script, the message will be sent to the specified Discord channel.
