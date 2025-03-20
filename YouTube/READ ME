@@ -1,0 +1,29 @@
+📁 VIDEO BACKUP SCRIPT FOR TERMUX  
+
+This Python script copies all video files from one folder to another in Termux.  
+
+🚀 INSTALLATION & USAGE  
+
+1. Open Termux  
+2. Install Python:  
+   pkg install python  
+3. Create a folder for the project:  
+   mkdir VideoBackup && cd VideoBackup  
+4. Add a main file named "copy_videos.py"  
+5. Write the script inside "copy_videos.py"  
+6. Save and exit  
+7. Run the program with:  
+   python copy_videos.py  
+
+🛠 HOW IT WORKS  
+✔️ Copies all videos from `/sdcard/Videos` to `/sdcard/Backup_Videos`  
+✔️ Automatically creates the destination folder if it doesn't exist  
+✔️ Supports `.mp4`, `.avi`, `.mkv`, `.mov`, `.flv` formats  
+
+🎉 EXAMPLE OUTPUT  
+✅ Copied: my_video.mp4  
+✅ Copied: movie.avi  
+🎉 Copy completed!  
+
+📜 LICENSE  
+This project is open-source under the MIT license.
